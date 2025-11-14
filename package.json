@@ -1,8 +1,8 @@
 {
-  "name": "@kb-labs/product-template",
+  "name": "kb-labs-setup-engine",
   "version": "0.1.0",
   "private": true,
-  "description": "KB Labs product template — zero-config starter powered by @kb-labs/devkit.",
+  "description": "KB Labs Setup Engine is a TypeScript framework for production-ready installation workflows.",
   "type": "module",
   "author": {
     "name": "Kirill Baranov",
@@ -11,12 +11,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kirill-baranov/kb-labs-product-template.git"
+    "url": "https://github.com/kirill-baranov/kb-labs-setup-engine.git"
   },
   "bugs": {
-    "url": "https://github.com/kirill-baranov/kb-labs-product-template/issues"
+    "url": "https://github.com/kirill-baranov/kb-labs-setup-engine/issues"
   },
-  "homepage": "https://github.com/kirill-baranov/kb-labs-product-template#readme",
+  "homepage": "https://github.com/kirill-baranov/kb-labs-setup-engine#readme",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -57,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "@byjohann/toon": "*",
     "@kb-labs/devkit": "link:../kb-labs-devkit",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
@@ -68,8 +69,7 @@
     "rimraf": "^6",
     "tsup": "^8",
     "typescript": "^5",
-    "vitest": "^3.2.4",
-    "@byjohann/toon": "*"
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": ">=18.18.0",
