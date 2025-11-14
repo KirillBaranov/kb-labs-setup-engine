@@ -1,0 +1,14 @@
+{
+  "extends": "@kb-labs/devkit/tsconfig/node.json",
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@kb-labs/setup-operations": ["../setup-operations/src/index.ts"]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "@kb-labs/setup-engine",
+  "version": "0.1.0",
+  "description": "Core analysis, planning, and execution engine for KB Labs setup workflows.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirill-baranov/kb-labs-setup-engine.git",
+    "directory": "packages/setup-engine"
+  },
+  "bugs": {
+    "url": "https://github.com/kirill-baranov/kb-labs-setup-engine/issues"
+  },
+  "homepage": "https://github.com/kirill-baranov/kb-labs-setup-engine/tree/main/packages/setup-engine",
+  "keywords": [
+    "kb-labs",
+    "setup",
+    "engine",
+    "idempotent",
+    "planner",
+    "executor"
+  ],
+  "dependencies": {
+    "@kb-labs/setup-operations": "workspace:^0.1.0"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run -c ../../vitest.config.ts",
+    "test:watch": "vitest -c ../../vitest.config.ts"
+  },
+  "devDependencies": {
+    "@kb-labs/devkit": "github:KirillBaranov/kb-labs-devkit#main",
+    "@types/node": "^20.16.10",
+    "tsx": "^4.20.5",
+    "tsup": "^8",
+    "vitest": "^3"
+  }
+}
