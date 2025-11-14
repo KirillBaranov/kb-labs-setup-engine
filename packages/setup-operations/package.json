@@ -1,0 +1,53 @@
+{
+  "name": "@kb-labs/setup-operations",
+  "version": "0.1.0",
+  "description": "Typed operations and builder primitives for KB Labs setup workflows.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirill-baranov/kb-labs-setup-engine.git",
+    "directory": "packages/setup-operations"
+  },
+  "bugs": {
+    "url": "https://github.com/kirill-baranov/kb-labs-setup-engine/issues"
+  },
+  "homepage": "https://github.com/kirill-baranov/kb-labs-setup-engine/tree/main/packages/setup-operations",
+  "keywords": [
+    "kb-labs",
+    "setup",
+    "operations",
+    "builder",
+    "idempotent"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run -c ../../vitest.config.ts",
+    "test:watch": "vitest -c ../../vitest.config.ts"
+  },
+  "devDependencies": {
+    "@kb-labs/devkit": "github:KirillBaranov/kb-labs-devkit#main",
+    "@types/node": "^20.16.10",
+    "tsx": "^4.20.5",
+    "tsup": "^8",
+    "vitest": "^3"
+  }
+}
