@@ -7,7 +7,7 @@ import type {
   ExecutionArtifacts,
   JournalEntry,
   OperationSnapshot
-} from './contracts.js';
+} from './contracts';
 
 export interface ChangeJournalOptions {
   workspaceRoot: string;

@@ -1,6 +1,6 @@
-import type { AnalyzerBatch } from './contracts.js';
-import { BasicAnalyzer } from './analyzer/basic-analyzer.js';
-import type { OperationRegistry } from './operation-registry.js';
+import type { AnalyzerBatch } from './contracts';
+import { BasicAnalyzer } from './analyzer/basic-analyzer';
+import type { OperationRegistry } from './operation-registry';
 
 export interface AnalyzerFactoryOptions {
   workspaceRoot: string;

@@ -3,7 +3,7 @@ import type {
   ExecutionArtifacts,
   JournalEntry,
   OperationSnapshot
-} from '../contracts.js';
+} from '../contracts';
 import type { OperationWithMetadata } from '@kb-labs/setup-operations';
 
 function clone<T>(value: T): T {

@@ -7,7 +7,7 @@ import {
   type ExecutionPlan,
   type ExecutionResult,
   type Planner
-} from './index.js';
+} from './index';
 import { SetupBuilder } from '@kb-labs/setup-operations';
 
 describe('@kb-labs/setup-engine contracts', () => {

@@ -15,12 +15,12 @@ import type {
   FailedOperation,
   ProgressEvent,
   ChangeJournal,
-} from './contracts.js';
+} from './contracts';
 import type {
   OperationRegistry,
   ExecutorHandlerContext,
   ApplyResult,
-} from './operation-registry.js';
+} from './operation-registry';
 
 export interface TransactionalExecutorOptions {
   workspaceRoot?: string;

@@ -5,7 +5,7 @@ import type {
   ConfigOperation,
   ScriptOperation,
 } from '@kb-labs/setup-operations';
-import type { AnalysisResult, FileDiff, ConfigDiff } from './contracts.js';
+import type { AnalysisResult, FileDiff, ConfigDiff } from './contracts';
 
 export interface AnalyzerHandlerContext {
   workspaceRoot: string;

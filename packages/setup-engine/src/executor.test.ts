@@ -2,9 +2,9 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
-import { createExecutor } from './executor.js';
-import { createOperationRegistry } from './operation-registry.js';
-import type { ExecutionPlan, OperationRiskLevel } from './contracts.js';
+import { createExecutor } from './executor';
+import { createOperationRegistry } from './operation-registry';
+import type { ExecutionPlan, OperationRiskLevel } from './contracts';
 import type {
   FileOperation,
   OperationMetadata,

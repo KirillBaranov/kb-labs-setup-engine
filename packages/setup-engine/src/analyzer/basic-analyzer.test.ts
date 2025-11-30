@@ -2,8 +2,8 @@ import { beforeEach, afterEach, describe, expect, it } from 'vitest';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
-import { BasicAnalyzer } from './basic-analyzer.js';
-import { createOperationRegistry } from '../operation-registry.js';
+import { BasicAnalyzer } from './basic-analyzer';
+import { createOperationRegistry } from '../operation-registry';
 import type {
   OperationMetadata,
   OperationWithMetadata,

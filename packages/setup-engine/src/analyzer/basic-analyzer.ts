@@ -6,15 +6,15 @@ import type {
   AnalysisResult,
   Conflict,
   OperationRiskLevel
-} from '../contracts.js';
+} from '../contracts';
 import type {
   OperationWithMetadata,
   FileOperation,
   ConfigOperation
 } from '@kb-labs/setup-operations';
-import { FileAnalyzer } from './file-analyzer.js';
-import { ConfigAnalyzer } from './config-analyzer.js';
-import type { OperationRegistry } from '../operation-registry.js';
+import { FileAnalyzer } from './file-analyzer';
+import { ConfigAnalyzer } from './config-analyzer';
+import type { OperationRegistry } from '../operation-registry';
 
 export interface BasicAnalyzerOptions {
   cwd: string;

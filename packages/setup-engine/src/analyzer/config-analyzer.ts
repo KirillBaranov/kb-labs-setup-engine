@@ -1,7 +1,7 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { isDeepStrictEqual } from 'node:util';
-import type { AnalysisResult, Conflict } from '../contracts.js';
+import type { AnalysisResult, Conflict } from '../contracts';
 import type { ConfigOperation, OperationWithMetadata } from '@kb-labs/setup-operations';
 
 export interface ConfigAnalyzerOptions {

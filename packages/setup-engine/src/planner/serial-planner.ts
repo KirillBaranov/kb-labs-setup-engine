@@ -6,7 +6,7 @@ import type {
   RiskAssessment,
   DiffSummary,
   AnalysisResult
-} from '../contracts.js';
+} from '../contracts';
 import type { OperationWithMetadata } from '@kb-labs/setup-operations';
 
 export class SerialPlanner implements Planner {

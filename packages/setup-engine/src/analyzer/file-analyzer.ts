@@ -2,7 +2,7 @@ import { promises as fs } from 'node:fs';
 import type { Stats } from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
-import type { AnalysisResult, Conflict } from '../contracts.js';
+import type { AnalysisResult, Conflict } from '../contracts';
 import type { FileOperation, OperationWithMetadata } from '@kb-labs/setup-operations';
 
 export interface FileAnalyzerOptions {

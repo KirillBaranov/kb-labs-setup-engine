@@ -12,13 +12,13 @@ import type {
   PlanStage,
   RiskAssessment,
   OperationRiskLevel,
-} from './contracts.js';
+} from './contracts';
 import type {
   OperationRegistry,
   DiffBuilder,
   DiffBuilderContext,
   DiffBuilderResult,
-} from './operation-registry.js';
+} from './operation-registry';
 
 const RISK_WEIGHT: Record<OperationRiskLevel, number> = {
   safe: 0,

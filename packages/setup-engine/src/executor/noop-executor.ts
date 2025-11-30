@@ -8,7 +8,7 @@ import type {
   FailedOperation,
   ChangeJournal,
   JournalEntry
-} from '../contracts.js';
+} from '../contracts';
 
 export interface NoopExecutorOptions {
   journal: ChangeJournal;

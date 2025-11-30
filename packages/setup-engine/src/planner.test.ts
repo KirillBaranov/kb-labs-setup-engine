@@ -1,13 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { createPlanner } from './planner.js';
-import { createOperationRegistry } from './operation-registry.js';
+import { createPlanner } from './planner';
+import { createOperationRegistry } from './operation-registry';
 import type {
   OperationMetadata,
   OperationWithMetadata,
   ConfigOperation,
   FileOperation,
 } from '@kb-labs/setup-operations';
-import type { AnalysisResult } from './contracts.js';
+import type { AnalysisResult } from './contracts';
 
 function withMetadata<T extends FileOperation | ConfigOperation>(
   id: string,
