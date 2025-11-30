@@ -12,7 +12,7 @@ import type {
   OperationWithMetadata,
   ScriptConflictResolution,
   ScriptOperation
-} from './types/index.js';
+} from './types/index';
 
 export interface EnsureFileOptions {
   encoding?: BufferEncoding;

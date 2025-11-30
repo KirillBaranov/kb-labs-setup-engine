@@ -10,7 +10,7 @@ import {
   type OperationMetadata,
   type OperationWithMetadata,
   type ScriptOperation
-} from './index.js';
+} from './index';
 
 describe('@kb-labs/setup-operations types', () => {
   it('exposes the union of operation kinds', () => {
