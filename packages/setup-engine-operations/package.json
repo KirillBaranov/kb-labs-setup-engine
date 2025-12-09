@@ -1,6 +1,6 @@
 {
   "name": "@kb-labs/setup-engine-operations",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Typed operations and builder primitives for KB Labs setup workflows.",
   "type": "module",
   "main": "./dist/index.js",
