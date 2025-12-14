@@ -1,6 +1,6 @@
 {
   "name": "@kb-labs/setup-engine-core",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Core analysis, planning, and execution engine for KB Labs setup workflows.",
   "type": "module",
   "main": "./dist/index.js",
