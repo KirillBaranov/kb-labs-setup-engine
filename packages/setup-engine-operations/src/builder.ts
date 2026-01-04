@@ -108,7 +108,7 @@ export class SetupBuilder {
     const operation: ConfigOperation = {
       kind: 'config',
       action: 'merge',
-      path: options.path ?? '.kb/kb-labs.config.json',
+      path: options.path ?? '.kb/kb.config.json',
       pointer: pointerToJsonPointer(pointer),
       value,
       strategy: options.strategy ?? 'deep',
