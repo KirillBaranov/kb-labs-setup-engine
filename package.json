@@ -1,7 +1,6 @@
 {
-  "name": "kb-labs-setup-engine",
+  "name": "@kb-labs/setup-engine",
   "version": "0.1.0",
-  "private": true,
   "description": "KB Labs Setup Engine is a TypeScript framework for production-ready installation workflows.",
   "type": "module",
   "author": {
@@ -69,7 +68,8 @@
     "rimraf": "^6",
     "tsup": "^8",
     "typescript": "^5",
-    "vitest": "^3.2.4"
+    "vitest": "^3.2.4",
+    "@types/node": "^24.3.3"
   },
   "engines": {
     "node": ">=18.18.0",
